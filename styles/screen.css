@@ -33,3 +33,17 @@ main{
     text-align: center;
     min-height: 800px; 
 }
+
+.hero h2{
+    font-size: 9em; 
+    line-height: 1em; 
+    text-transform: uppercase;
+    margin: 0; 
+}
+
+.details ul li {
+    background: url("/images/qrcode-solid.svg") no repeat-center; 
+    list-style-tyle: none;
+    margin: 10px 0; 
+    padding: 0 0 0 40px; 
+}
