@@ -28,3 +28,8 @@ main{
     margin: 0 auto; 
     width: 1000px; 
 }
+
+.hero{
+    text-align: center;
+    min-height: 800px; 
+}
