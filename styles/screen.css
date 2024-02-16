@@ -1,50 +1,30 @@
-body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+:root{
+    --main-bg-color: #E9E9E9; 
+    --primary-text-color: #424242;
+    --accent-color: #FF3F3C;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
+body{
+    background: var(--main-bg-color);
+    font-family: "Inter", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+header{
+    padding:20px;
+    margin-bottom: 100px;
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+header h1{
+    margin:0;
+    font-weight: normal; 
 }
 
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
-}
-
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-img.about {
-    opacity: 0.5;
+main{
+    background: url("/images/polaroid.png") no-repeat center 100px;
+    margin: 0 auto; 
+    width: 1000px; 
 }
