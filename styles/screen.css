@@ -41,9 +41,9 @@ main{
     margin: 0; 
 }
 
-.details ul li {
-    background: url("/images/qrcode-solid.svg") no repeat-center; 
+.details ul li.qr {
+    background: url("/images/qrcode-solid.svg") no-repeat center left; 
     list-style-type: none;
     margin: 10px 0; 
-    padding: 0 0 0 40px; 
+    padding: 0 0 0 35px; 
 }
