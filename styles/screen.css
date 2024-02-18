@@ -38,6 +38,7 @@ main{
     font-size: 9em; 
     line-height: 1em; 
     text-transform: uppercase;
+    text-align: center;
     margin: 0; 
 }
 
@@ -45,6 +46,7 @@ main{
     list-style-type: none;
     margin: 10px 0; 
     padding: 0 0 0 35px; 
+    text-align: center;
 }
 
 .details ul li.qr {
@@ -64,4 +66,8 @@ main{
 .details ul li.photo {
     background: url("/images/photo-film-solid.svg") no-repeat center left; 
    
+}
+
+.cta h3{
+    text-align: center; 
 }
