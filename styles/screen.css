@@ -38,15 +38,17 @@ main{
     font-size: 9em; 
     line-height: 1em; 
     text-transform: uppercase;
-    text-align: center;
     margin: 0; 
+}
+
+.details{
+    text-align: center;
 }
 
 .details ul li{
     list-style-type: none;
     margin: 10px 0; 
     padding: 0 0 0 35px; 
-    text-align: center;
 }
 
 .details ul li.qr {
@@ -75,13 +77,15 @@ main{
 .cta form {
     background-color: #E2E2E2;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px; 
+    width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
 }
-
 
 .cta input[type="button"] {
     background-color: #FF3F3C;
-    color: white; 
-    border: none; 
-    padding: 10px 20px; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
 }
