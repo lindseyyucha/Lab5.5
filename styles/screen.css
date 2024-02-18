@@ -41,7 +41,7 @@ main{
     margin: 0; 
 }
 
-.details ui li{
+.details ul li{
     list-style-type: none;
     margin: 10px 0; 
     padding: 0 0 0 35px; 
