@@ -49,6 +49,9 @@ main{
 
 .details ul li.qr {
     background: url("/images/qrcode-solid.png") no-repeat center left; 
+    list-style-type: none;
+    margin: 10px 0; 
+    padding: 0 0 0 35px; 
 }
 .details ul li.wifi {
     background: url("/images/wifi-solid.png") no-repeat center left; 
