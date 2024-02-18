@@ -48,8 +48,7 @@ main{
 
 .details p{
     text-align: center;
-    margin: 10px 0; 
-    padding: 0 0 0 35px; 
+    padding: 20px; 
 }
 
 .details ul li{
@@ -85,12 +84,13 @@ main{
 .cta form {
     background-color: #E2E2E2;
     padding: 20px;
-    border-radius: 10px; 
-    width: 300px; 
-    margin: 0 auto; 
-    display: flex; 
-    align-items: center; 
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
     justify-content: space-between;
+    align-items: center;
 }
 
 .cta input[type="text"] {
