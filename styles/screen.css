@@ -41,7 +41,11 @@ main{
     margin: 0; 
 }
 
-.details{
+.details h3{
+    text-align: center;
+}
+
+.details p{
     text-align: center;
 }
 
@@ -80,7 +84,6 @@ main{
     border-radius: 10px; 
     width: 300px; 
     margin: 0 auto; 
-    text-align: center; 
 }
 
 .cta input[type="button"] {
