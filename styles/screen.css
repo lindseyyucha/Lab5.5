@@ -71,3 +71,17 @@ main{
 .cta h3{
     text-align: center; 
 }
+
+.cta form {
+    background-color: #E2E2E2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.cta input[type="button"] {
+    background-color: #FF3F3C;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+}
