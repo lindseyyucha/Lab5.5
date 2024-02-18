@@ -43,6 +43,8 @@ main{
 
 .details h3{
     text-align: center;
+    font-size: 4em; 
+    line-height: 1em; 
 }
 
 .details p{
@@ -76,6 +78,8 @@ main{
 
 .cta h3{
     text-align: center; 
+    font-size: 4em; 
+    line-height: 1em; 
 }
 
 .cta form {
