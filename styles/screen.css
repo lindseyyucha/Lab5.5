@@ -48,6 +48,7 @@ main{
 
 .details p{
     text-align: center;
+    word-wrap: break-word;
 }
 
 .details ul li{
@@ -88,6 +89,7 @@ main{
     margin: 0 auto; 
     display: flex; 
     align-items: center; 
+    justify-content: space-between;
 }
 
 .cta input[type="button"] {
